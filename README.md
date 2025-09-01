@@ -3,8 +3,6 @@
 
 A browser extension that provides real-time context and safety checks for hyperlinks. See before you click!
 
-![Screenshot of the extension](https://via.placeholder.com/400x250.png?text=Screenshot+Here)
-
 ## Features
 *   **Smart Hover Preview:** See page title, description, and full URL before clicking.
 *   **Safety Indicator:** Visual warning for known malicious links.
