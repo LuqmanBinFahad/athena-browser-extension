@@ -1,11 +1,22 @@
-# Ignore private key for packaging
+# Ignore the private key file used for signing the extension
 *.pem
 
-# Ignore OS generated files
+# Ignore any packaged .crx or .zip files
+*.crx
+*.zip
+
+# macOS
 .DS_Store
-.DS_Store?
-._*
+.AppleDouble
+.LSOverride
 .Spotlight-V100
 .Trashes
-ehthumbs.db
+._*
+
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
