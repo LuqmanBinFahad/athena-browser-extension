@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Athena - Link Guardian",
+  "version": "1.0",
+  "description": "See before you click. Know before you go. Intelligent link previews and safety checks.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "options_page": "options/options.html",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    },
+    "default_title": "Athena — Link Guardian is active!"
+  },
+  "permissions": ["storage", "tabs", "activeTab", "scripting"]
+}
